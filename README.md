@@ -113,5 +113,76 @@ The application converts the entered height from centimeters to meters before ca
 
 This project was built as part of my JavaScript learning journey to practice functions, return values, conditional statements, DOM manipulation, and user input handling.
 
+# 🎓 Student Grading System
+
+A simple and interactive **Student Grading System** built using HTML, CSS, and JavaScript.
+
+This project takes the maximum marks, student's obtained marks, and class average as input and calculates the student's percentage, grade, and performance compared with the class average.
+
+## 🎥 Demo
+
+https://github.com/user-attachments/assets/c17f4726-ca48-47d6-8d92-62db0200e6d7
+
+## 🚀 Features
+
+* Calculate student's percentage
+* Generate grades from **A+ to F**
+* Compare student's performance with the class average
+* Dynamic progress bar based on percentage
+* Progress bar changes color according to performance
+* Input validation
+* Reset functionality
+* Clean and responsive user interface
+
+## 🛠️ Technologies Used
+
+* **HTML5**
+* **CSS3**
+* **JavaScript**
+
+## 📚 JavaScript Concepts Practiced
+
+* Variables using `const`
+* Number conversion using `Number()`
+* Arithmetic operators
+* Conditional statements
+* Functions and return values
+* Function parameters and arguments
+* DOM selection using `getElementById()`
+* Reading input using `.value`
+* Updating content using `.textContent`
+* Event handling using `addEventListener()`
+* Dynamic CSS using `.style`
+* Dynamic classes using `.classList`
+* Input validation
+* Reset functionality
+* `toFixed()` for formatting percentages
+
+## 🧮 Grading Criteria
+
+| Percentage | Grade |
+| ---------- | ----- |
+| 90% - 100% | A+    |
+| 80% - 89%  | A     |
+| 70% - 79%  | B     |
+| 60% - 69%  | C     |
+| 50% - 59%  | D     |
+| Below 50%  | F     |
+
+## 📊 How It Works
+
+1. Enter the maximum marks.
+2. Enter the student's obtained marks.
+3. Enter the class average.
+4. Click **Calculate Result**.
+5. The percentage and grade are calculated.
+6. The progress bar represents the student's performance.
+7. The result is compared with the class average.
+8. Click **Reset** to clear the inputs and results.
+
+## 💡 What I Learned
+
+This project helped me understand how **JavaScript interacts with HTML through the DOM**.
+I practiced selecting elements, reading user input, performing calculations, validating data, updating the webpage dynamically, handling events, and changing CSS using JavaScript.
 
 
