@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Student Grading System</title> 
+ 
+    <link rel="stylesheet" href="styles.css"> 
+</head> 
+ 
+<body> 
+ 
+    <div class="container"> 
+        <h1>Student Grading System</h1> 
+        
+        <label for="max-mark">Maximum Marks</label> 
+        <input type="number" placeholder="Enter Maximum Marks" id="max-mark"> 
+ 
+        <label for="obtained-mark">Student Marks</label> 
+        <input type="number" placeholder="Enter Student Marks" id="obtained-mark"> 
+ 
+        <label for="avg-mark">Class Average</label> 
+        <input type="number" id="avg-mark" placeholder="Enter class average"> 
+ 
+        <button id="caluclateBtn">Calculate Result</button> 
+         
+        <div class="result"> 
+            <p id="percent"></p> 
+    <div class="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+            <p id="resultStats"></p> 
+            <p id="Comparison"></p> 
+        </div> 
+ <button id="resetBtn">Reset</button>
+         
+    </div> 
+ 
+    <script src="script.js"></script> 
+ 
+</body> 
+</html>
