@@ -1,0 +1,150 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4f7;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    width: 400px;
+    padding: 30px;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 15px;
+
+    font-size: 15px;
+    font-weight: bold;
+    color: #444;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+
+    border: 1px solid #ccc;
+    border-radius: 6px;
+
+    font-size: 15px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #4a90e2;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 25px;
+
+    border: none;
+    border-radius: 6px;
+
+    background: #4a90e2;
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: #357abd;
+}
+
+.result {
+    margin-top: 25px;
+    padding: 20px;
+
+    background: #f8f9fa;
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+.result p {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+#percent {
+    font-size: 24px;
+    color: #4a90e2;
+}
+
+#resultStats {
+    font-size: 20px;
+}
+
+#Comparison {
+    font-size: 16px;
+    color: #555;
+}
+#progress-bar {
+    width: 0%;
+}
+.progress-container {
+    width: 100%;
+    height: 20px;
+    background: #ddd;
+    border-radius: 10px;
+    margin: 15px 0;
+    overflow: hidden;
+}
+
+#progress-bar {
+    width: 0%;
+    height: 100%;
+    background: #4a90e2;
+    border-radius: 10px;
+    transition: width 0.5s ease;
+}
+.excellent {
+    color: green !important;
+}
+
+.average {
+    color: #d4a000 !important;
+}
+
+.failed {
+    color: red !important;
+}
+
+.progress-excellent {
+    background: green !important;
+}
+
+.progress-average {
+    background: #d4a000 !important;
+}
+
+.progress-failed {
+    background: red !important;
+}
