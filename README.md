@@ -113,7 +113,7 @@ The application converts the entered height from centimeters to meters before ca
 
 This project was built as part of my JavaScript learning journey to practice functions, return values, conditional statements, DOM manipulation, and user input handling.
 
-# 🎓 Student Grading System
+# 🎓Project 3 —  Student Grading System
 
 A simple and interactive **Student Grading System** built using HTML, CSS, and JavaScript.
 
